@@ -1,4 +1,7 @@
 line 1: 100
 line 2: 200
 
-Changes made from branch feature1.
+feature1: line 1
+feature1: line 2
+
+
