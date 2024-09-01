@@ -1,2 +1,6 @@
 line 1: 100
 line 2: 200
+
+feature2: line 101
+feature2: line 102
+feature2: line 103
