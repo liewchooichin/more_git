@@ -1,2 +1,4 @@
 Created in branch feature1
 This is a SECRET.
+
+Just setup git-credential-manager.
