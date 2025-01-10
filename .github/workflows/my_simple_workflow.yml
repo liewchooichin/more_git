@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World. Coconut is my code word." > hello.txt
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: hello
           path: hello.txt
@@ -51,7 +51,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: job_1
     steps:
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4
         with:
           name: hello
       - run: cat hello.txt
